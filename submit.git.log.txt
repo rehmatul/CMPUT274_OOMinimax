@@ -1,0 +1,35 @@
+commit 334cbf100c726a3224620964765102baf8171d53
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Sat Nov 14 06:51:55 2020 -0700
+
+    updated the main function
+
+commit 5032ca5d3c424a3d4a4d8ad555da57e1b2644252
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Sat Nov 14 05:58:12 2020 -0700
+
+    Added the new class board
+
+commit 0549741912d0f9c9d2aba50b5c64ece555bf9169
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Sat Nov 14 05:20:45 2020 -0700
+
+    Introduced a new method who_won
+
+commit a0e01fa30b6af99d945f7009c428cadb239da8af
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Sat Nov 14 05:19:21 2020 -0700
+
+    Added the class state
+
+commit fedd4fdd1eb554ea837cba00e0ce6b13e9d4760c
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Thu Nov 12 22:02:54 2020 -0700
+
+    Added Name and ID in docstring
+
+commit 70e4b24df30976620839988a294ea0793a72f37d
+Author: Fatima Rehmatullah <rehmatul@ualberta.ca>
+Date:   Thu Nov 12 08:58:14 2020 -0700
+
+    Added Name and ID in docstring

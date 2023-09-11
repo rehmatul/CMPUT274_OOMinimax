@@ -1,0 +1,33 @@
+# ---------------------------------------------------
+#    Name: FATIMA REHMATULLAH
+#    ID: 1631703
+#    CMPUT 274, Fall  2020
+#    Weekly Assignment#6: Object-Oriented Minimax
+# --------------------------------------------------
+
+   Files included:
+1) oominimax.py
+2) README
+3) submit.git.log.txt
+4) debugger.png
+
+   Notes: 
+
+The file oominimax.py reuses the minimax.py code provided as part of the assignment with a few modifications to change its design from procedural to OOP. The modifications include:
+
+*  The get_choice function in the main module takes the users choice (prompting an input) and then sets the symbol equal to h_choice for human and c_choice for the computer. The function returns the 2 variables.
+
+*  A new class is created called state which has the cells of the board as an attribute. It also has many different methods which directly effect the board. The class state includes the constructor for the cells attribute as well as the __str__ and __repr__ functions.
+
+* A new method created in this class is called "who_won" which reuses the code from the main function of minimax.py to determine who the winner is and prints the relevant string on the terminal. It also uses the render method to print the status of the board.
+
+* Another class created is called board which inherits from the class state and holds all the methods which directly modify the board like set_Move and get_move.
+
+The file submit.git.log.txt contains the git log of the repository showing a history of all the commits created.
+
+The file debugger.png is a screenshot of the debugger showing stacks on the right hand side.
+
+  Running Instructions:
+
+* Open a terminal window and use the command python3 oominimax.py. This will launch the tic tac toe game. The game lets you choose if you want to go first or not and what symbol do you want to use.
+
